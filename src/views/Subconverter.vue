@@ -35,7 +35,7 @@
               </el-form-item>
               <el-form-item label="后端地址:">
                 <el-select v-model="form.customBackend" allow-create filterable @change="selectChanged"
-                  placeholder="http://openet.cf:25500/" style="width: 100%">
+                  placeholder="https://150.230.102.59:25500/" style="width: 100%">
                   <el-option v-for="(v, k) in options.customBackend" :key="k" :label="k" :value="v"></el-option>
                 </el-select>
               </el-form-item>
